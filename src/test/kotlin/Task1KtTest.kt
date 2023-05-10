@@ -128,7 +128,7 @@ class Task1KtTest {
     @Test
     fun transferMirDownMinCommission() {
         val result = transfer("Mir", 500, 510)
-        assertEquals("35", result)
+        assertEquals("75", result)
     }
 
     @Test
